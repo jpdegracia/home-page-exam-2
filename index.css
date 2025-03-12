@@ -1,0 +1,169 @@
+#navBar {
+	font-family: Kanit;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	background: #1F6357;
+}
+
+#navbarNav {
+
+	font-family: Kanit;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+
+	/*	color */
+	color: rgba(0, 51, 99, 1);
+}
+
+#introduction{
+	background: 
+		linear-gradient(
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0)
+		),
+		url("https://cdn.create.vista.com/api/media/medium/147573353/stock-photo-books-diploma-and-graduation-cap?token=");
+		background-repeat: no-repeat;
+		background-size: cover;
+	height: 600px;
+	;
+} 
+
+
+
+#title {
+    font-family: "Press Start 2P", cursive;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+
+
+}
+
+#title2{
+	width: 600px;
+	height: 124px;
+	top: 166px;
+	left: 4px;
+	gap: 0px;
+	opacity: 0px;
+	font-family: Anton;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #FFFFFF;
+
+}
+
+#base{
+	background: forestgreen;
+	padding: 8px 8px 8px 8px;
+	border-radius: 80px;
+
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 24px;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #FFFFFF;
+
+}
+
+.custom-btn {
+      transition: 0.3s;
+  }
+
+.custom-btn:hover {
+      background-color: aliceblue;
+      color: #fff;
+  }
+
+
+#categories-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+}
+.category-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaf4ff;
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+.category-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+.learn-more {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.learn-more:hover {
+    background-color: #218838;
+}
+
+
+#about {
+    background: url('https://www.shutterstock.com/image-vector/abstract-ai-circuit-board-background-600nw-2471339475.jpg') no-repeat center center/cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.about-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+}
+
+
+.content-container {
+    position: relative;
+    z-index: 2;
+    padding: 60px 20px;
+}
+
+
+#about h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#mission {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+	
